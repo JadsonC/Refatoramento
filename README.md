@@ -13,7 +13,7 @@ Classe Usuario modificada - https://github.com/JadsonC/Refatoramento/blob/master
 
 ***2 - LONG METHOD:*** No mesmo sistema do Lazy Class corrigido acima, em uma classe que tem acesso ao banco de dados possuia dois métodos com um loop cada, que tinham a função de 'limpar a tela', printando vários "\n" consecutivos.
 
-Classe com dois métodos longos (mostrarNomeLivro e mostrarLivroporGenero) - https://github.com/JadsonC/Refatoramento/blob/master/LongMethod.java
+Classe com dois métodos longos (mostrarNomeLivro e mostrarLivroPorGenero) - https://github.com/JadsonC/Refatoramento/blob/master/LongMethod.java
 
 Solução: Um novo método chamado "limparTela" foi criado com um único loop, o qual é chamado dentro dos métodos "mostrarNomeLivro" e "mostraLivroPorGenero".
 
