@@ -11,10 +11,10 @@ Solução: A classe Pessoa foi excluída e os atributos dela foram inclusos dire
 
 Classe Usuario modificada - https://github.com/JadsonC/Refatoramento/blob/master/LazyClassCorrigido.java
 
-***2 - LONG METHOD:*** No mesmo sistema do Lazy Class corrigido acima, em uma classe que tem acesso ao banco de dados possuia dois métodos com um loop cada, que tinham a função de 'limpar a tela', printando vários "\n" consecutivos.
+***2 - CODE DUPLICATION:*** No mesmo sistema do Lazy Class corrigido acima, em uma classe que tem acesso ao banco de dados possuia dois métodos com um loop cada e idênticos, que tinham a função de 'limpar a tela', printando vários "\n" consecutivos.
 
-Classe com dois métodos longos (mostrarNomeLivro e mostrarLivroPorGenero) - https://github.com/JadsonC/Refatoramento/blob/master/LongMethod.java
+Classe com os loops duplicados (mostrarNomeLivro e mostrarLivroPorGenero) - https://github.com/JadsonC/Refatoramento/blob/master/CodeDuplication.java
 
 Solução: Um novo método chamado "limparTela" foi criado com um único loop, o qual é chamado dentro dos métodos "mostrarNomeLivro" e "mostraLivroPorGenero".
 
-Long Method corrigido - https://github.com/JadsonC/Refatoramento/blob/master/LongMethodCorrigido.java
+Code Duplication corrigido - https://github.com/JadsonC/Refatoramento/blob/master/CodeDuplicationCorrigido.java
