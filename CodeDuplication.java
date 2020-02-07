@@ -6,20 +6,12 @@ import java.util.ArrayList;
 
 
 public class LivroDAO {
-    
-    /**
-     * Insere um usuario dentro do banco de dados
-     * @param livro exige que seja passado um objeto do tipo livro
-     */
+
     public void insert(Livro livro){
         Banco.livro.add(livro);
         System.out.println(Banco.livro.size());
     }
-    
-    /**
-     * Retorna um arraylist com todos os usuarios do banco de dados
-     * @return uma lista com todos os registros do banco
-     */
+
     public ArrayList<Livro> selectAll(){
         return Banco.livro;
     }
