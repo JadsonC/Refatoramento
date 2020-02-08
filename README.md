@@ -28,3 +28,9 @@ Solução: Criar um método para cada simulação de menu. Cada simulador de men
 Long Method corrigido - https://github.com/JadsonC/Refatoramento/blob/master/LongMethodCorrigido.java
 
 OBS: também foi criado o método "showException" que evita a repetição de código em 6 partes diferentes da classe, assim sendo chamado quando necessário. Isso corrige code duplication e long method.
+
+***Referências de códigos:*** 
+
+https://github.com/JadsonC/Projeto_OO
+
+https://github.com/paulov59/Projeto-OO
