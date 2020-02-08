@@ -18,3 +18,13 @@ Classe com os loops duplicados (mostrarNomeLivro e mostrarLivroPorGenero) - http
 Solução: Um novo método chamado "limparTela" foi criado com um único loop, o qual é chamado dentro dos métodos "mostrarNomeLivro" e "mostraLivroPorGenero".
 
 Code Duplication corrigido - https://github.com/JadsonC/Refatoramento/blob/master/CodeDuplicationCorrigido.java
+
+***3 - LONG METHOD:*** Em um sistema de gerenciamento de lojas, há uma classe na qual os métodos possuem vários prints simulando o menu de escolhas que o usuário deve fazer, o que torna os métodos mais longos e consequentemente menos legíveis.
+
+Métodos com simuladores de menus (menu, cashierManagement, clientManagement, employeeManagement e stockManagement) - https://github.com/paulov59/Projeto-OO/blob/master/src/main/StoreManager.java
+
+Solução: Criar um método para cada simulação de menu. Cada simulador de menu será chamado dentro dos métodos, ao invés de ser printado diretamente deles.
+
+Long Method corrigido - https://github.com/JadsonC/Refatoramento/blob/master/LongMethodCorrigido.java
+
+OBS: também foi criado o método "showException" que evita a repetição de código em 6 partes diferentes da classe, assim sendo chamado quando necessário. Isso corrige code duplication e long method.
